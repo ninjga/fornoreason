@@ -1,4 +1,4 @@
-#bashit
+#bash IT
 echo "fdisk -l /dev/reality" | pv -qL 10
 echo "" | pv -qL 10
 echo "Disk /dev/reality: *.* GB, *.* bytes"
