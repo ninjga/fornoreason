@@ -1,0 +1,15 @@
+echo "fdisk -l /dev/reality" | pv -qL 10
+echo "" | pv -qL 10
+echo "Disk /dev/reality: *.* GB, *.* bytes"
+echo "7GB heads, 63 sectors/track, 2438 cylinders" 
+echo "Units = cylinders of 16065 * 512 *.* = *.* bytes" 
+echo "" 
+echo "   Device Boot      Start         End      Blocks   Id  System" 
+echo "/dev/realityhell               0          1     *.*+     b  $95 VERYFAT32" 
+echo "" 
+echo "[D][W][Q]" | pv -qL 10
+echo "mount -f /dev/awesome /home/earth" | pv -qL 10
+echo "echo fk you" | pv -qL 10
+echo "fk you"
+echo "message upgrades in progress, hold on kids, this is going to be weeeeeeeeeeeeee" | pv -qL 10 
+echo "reboot" | pv -qL 10
