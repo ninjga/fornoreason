@@ -1,0 +1,11 @@
+echo " "
+echo "|\/||_)_)__| \|"
+echo "|  ||  _)  |_/|_"
+echo "www.ninj.ga"
+echo " "
+echo "Please insert the Youtube URL that you want to grab the MP3 from:"
+echo " "
+echo "Youtube URL:"
+read var1
+
+youtube-dl --extract-audio --audio-format mp3 $var1
